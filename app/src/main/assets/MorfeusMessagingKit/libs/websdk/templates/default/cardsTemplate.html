@@ -1,0 +1,32 @@
+<div class="container-fluid" style="padding:0px 40px;margin:0px;">
+    <div id="cardsImage-{{payload.randId}}" class="slider mobile-display-swipe center">
+        {{#each payload.data}}
+            {{#if element}}
+                <div class="panel panel-default button-div border-radius-top-20">
+                    {{#if element.image.imageUrl}}
+                        <div class="panel-heading card-image">
+                            <img src="{{element.image.imageUrl}}" class="img-responsive" />
+                        </div>
+                    {{/if}}
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-12 buttondesign">
+                                <h4 class="uob-amex">{{{element.title.text}}}</h4>
+                                <p class="account-number">{{{element.subtitle.text}}}</p>
+                            </div>
+                            {{#each details}}
+                                <div class="col-xs-12" class="details">
+                                    <span class="details-title">{{@key}} :</span>
+                                    <span class="details-value" style="color:{{color}}">{{{value}}}</span>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{#each element.buttons}}
+                        <button type="button" data-button-index="{{@index}}" class="btn btn-primary btn-sm btn-block" {{#is action 'postback'}} data-value="{{stringify payload}}" {{else}} data-value="{{payload}}" {{/is}} data-type="{{action}}" onclick="callApi(this);">{{text}}</button>
+                    {{/each}}
+                </div>
+            {{/if}}
+        {{/each}}
+    </div>
+</div>

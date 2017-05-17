@@ -1,0 +1,50 @@
+@import url("style.css");
+@import url("default.css");
+.chat-head {
+    background-color: #1D3B8A;
+    color: #fff;
+}
+
+.messages {
+    background-color: #fff;
+}
+
+.bot-message .messageContent {
+    background-color: #eeedef;
+    color: #000;
+}
+
+.bot-message .last-seen-tick {
+    color: #000;
+}
+
+.user-message .messageContent {
+    background-color: #3393fb;
+    color: #fff;
+}
+
+.user-message .last-seen-tick {
+    color: #fff;
+}
+
+.footer-form {
+    background-color: #f0f3f5;
+    color: #565867;
+}
+
+
+/*#micBtn {
+    background-image: url('../images/hdfc/mic.png');
+}*/
+
+.mic-on {
+    background-image: url('../images/hdfc/mic.gif');
+}
+
+.mic-off {
+    background-image: url('../images/hdfc/mic.png');
+}
+
+#send {
+    background-image: url('../images/hdfc/send.png');
+}

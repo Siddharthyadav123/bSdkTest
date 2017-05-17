@@ -1,0 +1,388 @@
+{
+  "messages": [
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG001",
+      "message": {
+        "type": "text",
+        "text": "Welcome to message"
+      }
+    },
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG002",
+      "message": {
+        "type": "image",
+        "text": "This is a image caption, This is a image caption, This is a image caption for 3 times.",
+        "thumb": "adfasdfdf",
+        "url": "receiver_topmale"
+      }
+    },
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG003",
+      "message": {
+        "type": "custom",
+        "card": {
+          "templateType": "InfoCardTemplate",
+          "content": [
+            {
+              "element": {
+                "title": {
+                  "type": "label",
+                  "text": "Hello Amit",
+                  "style": {
+                    "textcolor": "#000000"
+                  }
+                },
+                "subtitle": {
+                  "type": "label",
+                  "text": "I'm back",
+                  "style": {
+                    "textcolor": "#2222FF"
+                  }
+                },
+                "image": {
+                  "type": "image",
+                  "imagetype": "png",
+                  "imagename": "receiver_topmale",
+                  "imageulr": "http://google.com"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG004",
+      "message": {
+        "type": "custom",
+        "card": {
+          "templateType": "InfoCardWithButtonsTemplate",
+          "content": [
+            {
+              "element": {
+                "title": {
+                  "type": "label",
+                  "text": "Current Account",
+                  "style": {
+                    "textcolor": "#2222FF"
+                  }
+                },
+                "subtitle": {
+                  "type": "label",
+                  "text": "XXXX-9876",
+                  "style": {
+                    "textcolor": "#2222FF"
+                  }
+                },
+                "cardimage": {
+                  "type": "image",
+                  "imagetype": "png",
+                  "imagename": "receiver_topmale",
+                  "imageurl": "http://google.com"
+                },
+                "buttons": [
+                  {
+                    "type": "button",
+                    "text": "See Last Transaction",
+                    "action": "SendMessage",
+                    "payload": "Last TRansaction - XXXX-9876",
+                    "style": {
+                      "textcolor": "#2222FF",
+                      "background-color": ""
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "text": "Block Card",
+                    "action": "SendMessage",
+                    "payload": "BlockCard - XXXX-9876",
+                    "style": {
+                      "textcolor": "#2222FF",
+                      "background-color": ""
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG005",
+      "message": {
+        "type": "custom",
+        "card": {
+          "templateType": "InfoCardWithButtonsTemplate",
+          "content": [
+            {
+              "action": "",
+              "payload": "",
+              "element": {
+                "title": {
+                  "type": "label",
+                  "text": "Saving Account",
+                  "action": "",
+                  "payload": "",
+                  "style": {
+                    "textcolor": "#2222FF",
+                    "textsize": ""
+                  }
+                },
+                "subtitle": {
+                  "type": "label",
+                  "text": "XXXX-9876",
+                  "action": "",
+                  "payload": "",
+                  "style": {
+                    "textcolor": "#2222FF",
+                    "textsize": ""
+                  }
+                },
+                "cardimage": {
+                  "type": "image",
+                  "imagetype": "png",
+                  "imagename": "receiver_topmale",
+                  "imageulr": "http://google.com"
+                },
+                "buttons": [
+                  {
+                    "type": "button",
+                    "text": "Last Transactions",
+                    "action": "SendMessage",
+                    "payload": "Last TRansaction - XXXX-9876",
+                    "style": {
+                      "textcolor": "#2222FF"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "action": "",
+              "payload": "",
+              "element": {
+                "title": {
+                  "type": "label",
+                  "text": "Current Account",
+                  "style": {
+                    "textcolor": "#2222FF"
+                  }
+                },
+                "subtitle": {
+                  "type": "label",
+                  "text": "XXXX-1234",
+                  "style": {
+                    "textcolor": "#2222FF"
+                  }
+                },
+                "cardimage": {
+                  "type": "image",
+                  "imagetype": "png",
+                  "imagename": "receiver_topmale",
+                  "imageulr": "http://google.com"
+                },
+                "buttons": [
+                  {
+                    "type": "button",
+                    "text": "Set As Default",
+                    "action": "SendMessage",
+                    "payload": "XXXX-1234",
+                    "style": {
+                      "textcolor": "#2222FF"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "text": "Last Transaction",
+                    "action": "SendMessage",
+                    "payload": "XXXX-1234",
+                    "style": {
+                      "textcolor": "#2222FF"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG003",
+      "message": {
+        "type": "custom",
+        "card": {
+          "templateType": "InfoCardTemplate",
+          "content": [
+            {
+              "element": {
+                "title": {
+                  "type": "label",
+                  "text": "Hello Viju",
+                  "style": {
+                    "textcolor": "#000000"
+                  }
+                },
+                "subtitle": {
+                  "type": "label",
+                  "text": "I'm back",
+                  "style": {
+                    "textcolor": "#2222FF"
+                  }
+                },
+                "welcomeimage": {
+                  "type": "image",
+                  "imagetype": "png",
+                  "imagename": "receiver_topmale",
+                  "imageulr": "http://google.com"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "to": "morfues_user",
+      "from": "morfues_bot",
+      "id": "MSG006",
+      "message": {
+        "type": "custom",
+        "card": {
+          "templateType": "ListCardTemplate",
+          "content": [
+            {
+              "element": {
+                "items": [
+                  {
+                    "title": {
+                      "type": "label",
+                      "text": "Today's Top News",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "subtitle": {
+                      "type": "label",
+                      "text": "President signs new bill",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "description": {
+                      "type": "label",
+                      "text": "petersendreceiveapp.nrgok.io",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "cellimage": {
+                      "type": "image",
+                      "imagetype": "png",
+                      "imagename": "receiver_topmale",
+                      "imageurl": "http://google.com"
+                    },
+                    "button": {
+                      "type": "button",
+                      "text": "Read More",
+                      "action": "SendMessage",
+                      "payload": "Last TRansaction - XXXX-9876",
+                      "style": {
+                        "textcolor": "#2222FF",
+                        "background-color": "#2222FF"
+                      }
+                    }
+                  },
+                  {
+                    "title": {
+                      "type": "label",
+                      "text": "Bull Market Continues to Rally",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "subtitle": {
+                      "type": "label",
+                      "text": "The markets react positively to",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "description": {
+                      "type": "label",
+                      "text": "petersendreceiveapp.nrgok.io",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "cellimage": {
+                      "type": "image",
+                      "imagetype": "png",
+                      "imagename": "receiver_topmale",
+                      "imageurl": "http://google.com"
+                    },
+                    "button": {
+                      "type": "button",
+                      "text": "Read",
+                      "action": "SendMessage",
+                      "payload": "Last TRansaction - XXXX-9876",
+                      "style": {
+                        "textcolor": "#2222FF",
+                        "background-color": ""
+                      }
+                    }
+                  },
+                  {
+                    "title": {
+                      "type": "label",
+                      "text": "Forest Fires",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "description": {
+                      "type": "label",
+                      "text": "",
+                      "style": {
+                        "textcolor": "#2222FF"
+                      }
+                    },
+                    "cellimage": {
+                      "type": "image",
+                      "imagetype": "png",
+                      "imagename": "receiver_topmale",
+                      "imageurl": "http://google.com"
+                    }
+                  }
+                ],
+                "buttonmore": {
+                  "type": "button",
+                  "text": "View More",
+                  "action": "SendMessage",
+                  "payload": "Last TRansaction - XXXX-9876",
+                  "style": {
+                    "textcolor": "#2222FF",
+                    "background-color": ""
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

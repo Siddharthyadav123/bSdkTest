@@ -1,0 +1,580 @@
+.mobile-carousel .carousel-caption
+{
+position: unset !important;
+padding:0px;
+text-align: left;
+text-shadow:unset !important;
+color: #888;
+}
+.mobile-carousel .carousel-inner
+{
+  margin-right: 10px;
+}
+.mobile-display-swipe .panel
+{
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+.mobile-display-swipe
+{
+  padding-bottom: 15px;
+}
+.mobile-display-swipe .panel-heading
+{
+padding:0px;
+}
+.mobile-display-swipe .uob-amex {
+    color: #4989e1;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.mobile-display-swipe .account-number {
+    font-size: 12px;
+    color: #888 !important;
+    margin-bottom: 0px;
+}
+.mobile-display-swipe .accounts .account-number {
+   font-size: 30px;
+    color: #292929 !important;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+.currency-design
+{
+  font-size: 12px;
+    position: relative;
+    bottom: 12px;
+}
+.mobile-display-swipe .min-payment-datails {
+    color: #888;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+.mobile-display-swipe .panel-body {
+  padding: 6px 12px !important;
+ position: relative;
+ top: -3px;
+ background: white;    
+ border-radius: 3px;
+}
+.mobile-display-swipe .payment-details {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.gradient-background
+{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ededed+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7f7f7 0%, #ededed 100%) !important; /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7f7f7 0%,#ededed 100%) !important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7f7f7 0%,#ededed 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=0 ) !important; /* IE6-9 */
+}
+.panel-design-2 .panel-body
+{
+position: inherit;
+padding: 15px 15px !important;
+}
+.mobile-display-swipe .card-icon
+{
+  margin-top: 8px;
+}
+.mobile-display-swipe
+{
+  margin-top: 10px;
+}
+.padd-left-xs
+{
+  padding-left: 4px;
+}
+.terms-conditions .heading {
+    color: #ddd;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.terms-conditions hr
+{
+  margin: 10px 0px;
+  border-color: #777;
+}
+.terms-conditions p {
+    color: #ddd;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.terms-conditions .checkbox {
+    color: white;
+    margin: 3px 0;
+    font-size: 12px
+}
+.terms-conditions a
+{
+  color: white;
+  font-size: 12px
+}
+.terms-conditions .checkbox-border
+{
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  text-align: left;
+}
+.terms-conditions .checkbox label
+{
+padding:5px;
+}
+.other-pages .loginmodal-container
+{
+  padding-top: 4%;
+}
+.touch-heading h5
+{
+margin-top: 30px;
+color: white;
+font-weight: bold;
+}
+.button-divbot .col-md-12
+{
+  padding: 10px;
+}
+.check-main
+{
+  padding:10px;
+}
+.bot-success-login h3
+{
+  color: white;
+}
+.bot-success-login p
+{
+  color: white;
+}
+.loginmodal-container .btn
+{
+  background: #7b8f98;
+  border-radius: 0px;
+  width: 100%;
+  border-color: #7b8f98;
+  padding: 10px 25px;
+  color: #d6dcde;
+}
+.loginmodal-container .btn:hover
+{
+    background: #7b8f98;
+  border-radius: 0px;
+  width: 100%;
+  border-color: #7b8f98;
+  padding: 10px 25px;
+  color: #d6dcde;
+}
+.overlay-div {
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    background-image: url('../images/loading-spokes.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.pinenter p
+{
+font-size: 11px;
+}
+.pinenter .row
+{
+  margin: 0px;
+}
+.pinenter .key-values input
+{
+  /*text-align: center;*/
+  padding-left: 1rem;
+  border-radius: 0px;
+  background: transparent;
+  width: 50%;
+  margin: 1%;
+  /*float: left;*/
+  letter-spacing: 2.1rem;
+}
+.pinenter .key-values input:focus
+{
+  box-shadow:none !important;
+}
+.pinenter .key-btn
+{
+  margin: 1%;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+.mobile-display-swipe .panel-heading {
+    /* background-color: #0d5cad; 
+    border-bottom: 1px solid #ff0006;*/
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    padding: 5px 10px;
+}
+.mobile-display-swipe .uob-amex {
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+.mobile-display-swipe .payment-details {
+    color: #454547;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.mobile-display-swipe .date-payment {
+    color: #89898b;
+    font-size: 12px;
+}
+.header-image-card .panel .panel-heading
+{
+
+  border-color: #ddd;
+}
+.button-div .btn-sm
+{
+    background: transparent;
+    border-bottom: 0 none;
+    border-color: #ddd !important;
+    border-left: 0 none;
+    border-radius: 0;
+    border-right: 0 none;
+    color: #008cff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 6px 0px;
+  }
+  .button-div .btn-sm:hover, .button-div .btn-sm:focus, .button-div .btn-sm:active
+{  
+    color: #999;
+    outline: 0px;
+    box-shadow:none;
+  }
+
+  .key-btn input {
+    background: white none repeat scroll 0 0;
+    color: #777;
+    padding: 8px 0;
+    width: 100%;
+  }
+  .key-btn input:hover
+  {
+  background: white none repeat scroll 0 0;
+    color: #777;
+    text-shadow:0px none;
+  }
+
+.otp-text
+{
+  color:#ddd;
+}
+.pinenter p {
+  font-size: 12px;
+}
+.white-bg-heading
+{
+  background-color:#fff;
+}
+
+.slick-slide .card-image img {
+    display: block;
+    /* height: 100px !important; */
+    width: 100%;
+}
+.slick-slide .card-image
+{
+    padding:0px !important;
+    background-color: transparent;
+    min-height: 100px;
+}
+.card-no-image .panel-body
+{
+  height: 120px;
+}
+
+.border-radius-top-20{
+  /*border-top-left-radius: 10px;
+   border-top-right-radius: 10px;*/
+  
+}
+
+.panel-heading.black{
+  color: #000;
+}
+.slick-track .border-radius-top-20:last-child {
+    border-radius: 25px;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    overflow: hidden;
+}
+.slick-track .border-radius-top-20:first-child {
+    border-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.slick-track .border-radius-top-20 {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover
+{
+  background-color: transparent;
+}
+.mobile-display-swipe .panel:focus
+{
+    outline: none;
+}
+
+.details{
+  margin-top: 5px;
+}
+
+.details-title{
+  font-size: 15px;
+}
+
+.details-value{
+  float: right; 
+  font-size: 15px;
+}
+.panel-design-2 .btn-block
+{
+    background: #ededed !important;
+    border-bottom: 0 none;
+    border-color: #fff !important;
+    border-left: 0 none;
+    border-radius: 0;
+    border-right: 0 none;
+    color: #008cff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 12px 0px;
+  }
+  .transactions-list {
+    padding-left: 15px;
+    list-style-type: decimal;
+    font-size: 12px;
+}
+.transaction-details
+{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.panel-design-2 .uob-amex
+{
+font-size: 12px;
+}
+.fund-transfer-1 .account-number
+{
+  font-size: 19px;
+}
+.fund-transfer-1 .panel-body
+{
+      padding: 12px 15px !important;
+    position: inherit !important;
+}
+.fund-transfer-1 .btn-sm
+{
+  padding: 15px 0px;
+}
+.fund-trans-quote
+{
+  padding: 15px;
+  padding-bottom: 0px;
+}
+.fund-trans-quote .line-1
+{
+margin-bottom: 0px;
+font-size: 15px;
+}
+.fund-trans-quote .line-2 {
+    font-size: 24px;
+}
+.fund-trans-quote .line-2 span {
+    font-size: 12px;
+    position: relative;
+    bottom: 9px;
+}
+.payment-temp-1 .uob-amex
+{
+  font-size: 11px;
+}
+.payment-temp-1 .account-number
+{
+    font-size: 13px;
+}
+.border1pxtop
+{
+  border-top: 1px solid #ccc;
+}
+.payment-temp-1 .payment-amount
+{
+  font-size: 17px;
+}
+.payment-temp-1 .payment-amount span
+{
+    font-size: 11px;
+    position: relative;
+    bottom: 5px;
+}
+.border1pxtop .uob-amex
+{
+  margin-bottom: 0px;
+}
+.payment-temp-1 .panel-heading img
+{
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.payment-temp-2 .payment-amount
+{
+  font-size: 17px;
+}
+.payment-temp-2 .payment-amount span
+{
+    font-size: 11px;
+    position: relative;
+    bottom: 5px;
+}
+.border1pxtop .uob-amex
+{
+  margin-bottom: 0px;
+}
+.payment-temp-2 .panel-heading img
+{
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.payment-temp-2 .account-number
+{
+    font-size: 13px;
+}
+.payment-temp-2 .uob-amex
+{
+  font-size: 11px;
+  color: gray;
+}
+.payment-temp-2 .uob-amex span
+{
+  color: #333;
+}
+
+.payment-temp-2 .span-values
+{
+  font-size: 17px;
+}
+.payment-temp-2 .span-inr
+{
+  font-size: 11px;
+    position: relative;
+    bottom: 4px;
+}
+.pay-confirm-template-1 .card-image
+{
+  border-bottom: 0px;
+}
+.pay-confirm-template-1 .card-image img
+{
+  padding: 0px 15px;
+}
+.pay-confirm-template-1 .uob-amex
+{
+  font-size: 12px;
+}
+.pay-confirm-template-1 .account-number
+{
+  font-size: 12px;
+}
+.pay-confirm-template-1 .btn-sm
+{
+      padding: 8px 0px;
+}
+.confirmation-template .fund-trans-quote .line-1
+{
+  font-size: 13px;
+}
+.confirmation-template .card-image img
+{
+  padding: 0px 15px;
+  width: 60%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.confirmation-template .fund-trans-quote
+{
+  padding-bottom: 10px;
+}
+.confirmation-template .panel-body
+{
+  position: inherit;
+}
+.confirmation-template .uob-amex
+{
+  border-bottom:0px;
+  line-height: 12px;
+}
+.confirmation-template .span-inr {
+    font-size: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.confirmation-template .acc-num-des
+{
+  font-size: 13px;
+}
+.payment-temp-1 .uob-amex
+{
+  color: #000;
+}
+.payment-temp-2 .uob-amex
+{
+  color: #000;
+}
+button[disabled]{
+  background-color: transparent !important;
+}
+
+.btn-disabled {
+  color: #bbb !important;
+  cursor: not-allowed !important;
+}
+
+.slick-slide .card-image
+{
+    padding:0px !important;
+    min-height: 100px;
+}
+
+.slick-track .border-radius-top-20:first-child .overlay-div{
+    border-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+.slick-track .border-radius-top-20:last-child .overlay-div{
+    border-radius: 25px;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    overflow: hidden;
+}

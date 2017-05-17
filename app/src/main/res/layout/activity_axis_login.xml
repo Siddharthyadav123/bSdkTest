@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/axisThemeColor">
+
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/iv_rupee"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="#E11E6A"
+            android:gravity="center"
+            android:text="Concierge"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:text="Good Afternoon"
+            android:textColor="@color/white"
+            android:textSize="23dp" />
+
+        <ImageView
+            android:id="@+id/iv_rupee"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/balance_icon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@+id/rl_header_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.morfeus.android.mfsdk.ui.widget.bubble.CurveRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_recharge"
+            android:orientation="horizontal"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/tv_recharge"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:background="@color/axisThemeColor"
+                android:gravity="center"
+                android:text="Recharge"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="45dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_bill_pay"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_toRightOf="@+id/tv_recharge"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="Bill Pay"
+                android:textColor="@color/gray"
+                android:textSize="22dp" />
+
+        </com.morfeus.android.mfsdk.ui.widget.bubble.CurveRelativeLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icon_phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="No previous transactions. To initiate a new Recharge,\n click on new Recharge button"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icon_pre_plus" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_not_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Not You ?"
+        android:textColor="@color/gray"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lightGray">
+
+        <ImageView
+            android:id="@+id/iv_apply_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/imgtab_apply" />
+
+        <ImageView
+            android:id="@+id/iv_scan_pay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/imgtab_scanpay" />
+
+        <ImageView
+            android:id="@+id/iv_near_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/imgtab_near" />
+
+        <ImageView
+            android:id="@+id/iv_support"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/imgtab_sprt" />
+
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/imgtab_more" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+{
+  "screen": {
+    "id": "LoginScreen",
+    "body": {
+      "style": {
+        "background-image": "bgCat",
+        "background-color": "#ffffff"
+      },
+      "image": {
+        "type": "image",
+        "imagetype": "png",
+        "imageName": "ic_login_header_image",
+        "imageUrl": "http://google.com"
+      },
+      "username": {
+        "placeholderText": "Login Id",
+        "style": {
+          "text-color": "#000000",
+          "background-color": "#C0C0C0"
+        }
+      },
+      "password": {
+        "placeholderText": "Password",
+        "style": {
+          "text-color": "#000000",
+          "background-color": "#C0C0C0"
+        }
+      }
+    },
+    "header": {
+      "style": {
+        "background-image": "abc.png",
+        "background-color": "#F9F9F9",
+        "border-color": "#000000"
+      },
+      "headerText": {
+        "text": "Login",
+        "style": {
+          "text-color": "#000000",
+          "horizontal-alignment": "center"
+        }
+      }
+    },
+    "footer": {
+      "style": {
+        "background-color": "#ffffff",
+        "border-color": "#000000"
+      },
+      "sendbutton": {
+        "text": "Login",
+        "style": {
+          "text-color": "#0085FE",
+          "background-color": "#F9F9F9"
+        }
+      },
+      "cancelbutton": {
+        "text": "Cancel",
+        "style": {
+          "text-color": "#0085FE",
+          "background-color": "#F9F9F9"
+        }
+      }
+    }
+  }
+}

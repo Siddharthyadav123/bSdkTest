@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#023F61</color>
+    <color name="colorPrimaryDark">#023F61</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_screen_bg">#3943c7</color>
+
+    <color name="actionBarBlue">#023F61</color>
+    <color name="axisThemeColor">#CB1E63</color>
+    <color name="lightGray">#E5E5E5</color>
+
+
+</resources>

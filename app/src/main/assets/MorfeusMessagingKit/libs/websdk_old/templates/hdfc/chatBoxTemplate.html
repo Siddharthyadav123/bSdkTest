@@ -1,0 +1,23 @@
+<header class="chat-head {{#isDesktop}}chat-head-desktop{{/isDesktop}}" id="chatbox-header">
+    <section class="chat-heading">
+        <h3 class="heading-name">
+        {{#isMobile}} 
+            <span class="pull-left"><img class="logo-icon" id="chatBoxBackButton" src="images/hdfc/back.png" style="padding-right:10px;"  onclick="hideChatBox(event)"></span>
+        {{/isMobile}}  
+        <span class="pull-left"><img class="logo-icon" src="images/hdfc/hdfc-icon.jpg" onclick="hideChatBox(event)"></span>
+        <span id="headingText">HDFC Bank Virtual Assistant (VA) </span>
+        {{#isDesktop}}
+        <span class="pull-right"><img class="close-icon" id="chatBoxCloseButton" src="images/hdfc/close.png" onclick="hideChatBox(event)"></span>
+        {{/isDesktop}}
+         </h3>
+    </section>
+</header>
+<section class="messages" id="messages">
+</section>
+<footer class="footer-form {{#isDesktop}}footer-form-desktop{{/isDesktop}}">
+    <input type="text" placeholder="How may I help you?" id="query" autocomplete="off" autofocus="" onkeypress="querykeypress(event)" />
+    {{#micSupported}}
+        <button class="image-button mic-off" id="micBtn" type="button" onclick="startDictation()"></button>
+    {{/micSupported}}
+    <button class="image-button" id="send" type="button" onclick="send()"></button>
+</footer>

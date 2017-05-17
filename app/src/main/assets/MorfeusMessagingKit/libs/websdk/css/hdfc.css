@@ -1,0 +1,260 @@
+html *
+{
+   font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.chat-head {
+    background-color: #1D3B8A;
+    color: #fff;
+}
+
+.messages {
+    background-color: #fff;
+}
+
+.bot-message .messageContent {
+    background-color: #fafafa;
+    color: #2c2c2c;
+    border: 1px solid #ededed;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bot-message .last-seen-tick {
+    color: #000;
+}
+
+.user-message .messageContent {
+    background-color: #4080ff;
+    color: #fff;
+    border: 1px solid #4080ff;
+	border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.user-message .last-seen-tick {
+    color: #fff;
+}
+
+.footer-form {
+    background-color: #f0f3f5;
+    color: #565867;
+}
+
+.mic-on {
+    background-image: url('../images/hdfc/mic.gif');
+}
+
+.mic-off {
+    background-image: url('../images/hdfc/mic.png');
+}
+
+#send {
+    background-image: url('../images/hdfc/send.png');
+}
+
+
+/* list card styles*/
+
+#list-template {
+    padding: 20px;
+}
+
+.list-custom-template .list-heading {
+    margin: 0px;
+    line-height: 30px;
+}
+
+.list-custom-template .list-subtitle {
+    color: #888;
+}
+
+.list-custom-template .panel-body {
+    border-bottom: 1px solid #dedede;
+    position: relative;
+    padding: 0px;
+}
+
+.list-custom-template .row {
+    padding: 10px;
+}
+
+.list-custom-template .panel-body:last-child {
+    border-bottom: 0px;
+}
+
+.list-custom-template .btn-outline {
+    background-color: #4080ff;
+    border-color: #4080ff;
+    color: #fff;
+    padding: 3px 8px;
+}
+
+.list-custom-template .btn-outline:hover {
+    background-color: transparent;
+    border-color: #4080ff;
+    color: #4080ff;
+}
+
+.list-custom-template .btn-outline:focus {
+    background-color: transparent;
+    border-color: #4080ff;
+    color: #4080ff;
+}
+
+.background-image-div .row {
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    width: 100%;
+}
+
+.background-image-div img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.background-image-div .btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.background-image-div .btn:focus {
+    color: #fff;
+    border-color: #fff;
+}
+
+.background-image-div .btn:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.over-lay-div {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.image-template .panel-body {
+    padding: 0;
+}
+
+.image-template {
+    border-radius: 20px;
+}
+
+.image-template img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image-template {
+    border-color: transparent;
+}
+
+.list-custom-template {
+    width: 100%;
+}
+
+.list-custom-template .block-button {
+    padding: 0px;
+}
+
+.list-custom-template .block-button {
+    padding: 0px;
+}
+
+.list-custom-template .btn-block {
+    background-color: transparent;
+    border-color: transparent;
+    color: #4080ff;
+    padding: 10px 5px;
+}
+
+.list-custom-template .btn-block:hover,
+.list-custom-template .btn-block:active,
+.list-custom-template .btn-block:focus {
+    background-color: transparent;
+    border-color: transparent;
+    color: #4080ff;
+    outline: none;
+    box-shadow: none;
+}
+
+.list-custom-template:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.list-custom-template .panel-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.margin0px {
+    margin: 0px;
+}
+
+.list-custom-template:first-child {
+    border-top-right-radius: 20px;
+}
+
+.blocked-card-bg {
+    background-color: #fff3f3;
+}
+
+
+/* end of list card styles*/
+
+.welcome-card-design {
+    background-color: #4080ff;
+    color: #fff;
+}
+
+.default-head-btn {
+    background-color: #ed232a;
+}
+
+.default-head-btn:active,
+.default-head-btn:hover,
+.default-head-btn:focus {
+    background-color: #ed232a;
+    outline: none;
+    box-shadow: none;
+}
+
+.HeaderLogoDesign {
+    width: 50px;
+    margin: 5%;
+}
+
+.margint0px {
+    margin-top: 0px;
+}
+
+.session-timeout {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+    display: none;
+}
+
+.session-timeout-desktop {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.row-btn {
+    font-size: 16px;
+}
+
+.row-btn-border {
+    border-bottom: 1px solid #dedede;
+}

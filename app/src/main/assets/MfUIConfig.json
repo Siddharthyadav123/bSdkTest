@@ -1,0 +1,236 @@
+{
+  "screen": {
+    "id": "chat",
+    "cardUIType": "MF_CARDUI_OPTION1",
+    "screenUIType": "MF_SCREENUI_OPTION1",
+    "body": {
+      "style": {
+        "background-image": "bgChat",
+        "background-color": "#F1F1F1"
+      }
+    },
+    "header": {
+      "style": {
+        "background-image": "",
+        "background-color": "#CB1E63"
+      },
+      "leftbuttons": [
+        {
+          "label": "back",
+          "image": "ic_arrow_back",
+          "action": "ic_arrow_back"
+        }
+      ],
+      "rightbuttons": [
+      ],
+      "headerText": {
+        "label": "Axis Concierge",
+        "style": {
+          "color": "#ffffff",
+          "horizontal-alignment": "left"
+        }
+      },
+      "subheaderText": {
+        "label": "Online",
+        "style": {
+          "color": "#ffffff"
+        }
+      },
+      "profileImage": {
+      }
+    },
+    "footer": {
+      "inputview": {
+        "style": {
+          "height": "50",
+          "background-color": "#ffffff"
+        },
+        "textinput": {
+          "placeholder-text": "What can I do for you",
+          "style": {
+            "background-image": "ic_like_off",
+            "background-color": "#F1F1F1"
+          }
+        },
+        "sendButton": {
+          "image": "ic_send"
+        }
+      },
+      "toolbarview": {
+        "type": "MF_TOOLBAR_DEFAULT",
+        "style": {
+          "height": "50",
+          "background-color": "#F1F1F1"
+        },
+        "content": [
+          {
+            "image": "ic_menu_off",
+            "image_sel": "ic_menu_on",
+            "subview": "menuview"
+          },
+          {
+            "image": "ic_text_off",
+            "image_sel": "ic_text_on",
+            "subview": "textview"
+          },
+          {
+            "image": "ic_emoji_off",
+            "image_sel": "ic_emoji_on",
+            "subview": "smileyview"
+          },
+          {
+            "image": "ic_record_off",
+            "image_sel": "ic_record_on",
+            "subview": "voiceview"
+          },
+          {
+            "image": "ic_like_off",
+            "image_sel": "ic_like_on",
+            "subview": "feedbackview"
+          }
+        ]
+      },
+      "shortcutview": {
+        "style": {
+          "height": "37",
+          "background-color": "#FFFFFF",
+          "button": {
+            "border-color": "#CB1E63",
+            "border-width": "1",
+            "corner-radius": "15",
+            "label-color": "#CB1E63",
+            "background-color": "#E4E4E4"
+          }
+        },
+        "content": [
+          {
+            "label": "Account Balance",
+            "action": "sendmessage",
+            "image": "accunt_balance",
+            "payload": "Account balance"
+          },
+          {
+            "label": "Funds Transfer",
+            "action": "sendmessage",
+            "image": "funds_transfer",
+            "payload": "Funds transfer"
+          },
+          {
+            "label": "Recharge",
+            "action": "IMAGEPICKER",
+            "payload": "Recharge",
+            "image": "recharge"
+          },
+          {
+            "label": "Block Cards",
+            "action": "IMAGEPICKER",
+            "image": "block_card",
+            "payload": "Block my card"
+          }
+        ]
+      }
+    },
+    "subview": {
+      "style": {
+        "height": "120",
+        "background-color": "#ffffff"
+      },
+      "content": {
+        "menuview": {
+          "content": [
+            {
+              "image": "ic_menu_acbalance",
+              "action": "sendmessage",
+              "label": "BALANCE",
+              "payload": "What's my balance"
+            },
+            {
+              "image": "ic_menu_dollar_inactive",
+              "label": "FUNDS TRANSFER",
+              "action": "sendmessage",
+              "payload": "Funds transfer"
+            },
+            {
+              "image": "ic_menu_billpay",
+              "action": "sendmessage",
+              "label": "BILL PAYMENT",
+              "payload": "Bill payment"
+            },
+            {
+              "image": "ic_menu_recharge",
+              "action": "sendmessage",
+              "label": "RECHARGE",
+              "payload": "Recharge"
+            }
+          ]
+        },
+        "smileyview": {
+          "content": [
+            {
+              "image": "image_funds",
+              "action": "RESET PIN",
+              "payload": "What's my balance"
+            },
+            {
+              "image": "image_conversion",
+              "action": "FUNDS TRANSFER",
+              "payload": "Funds Transfer"
+            },
+            {
+              "image": "image_security",
+              "action": "Block Card",
+              "payload": "Block Card"
+            },
+            {
+              "image": "image_dollar",
+              "action": "RECHARGE",
+              "payload": "Recharge"
+            }
+          ]
+        },
+        "voiceview": {
+          "content": [
+            {
+              "image": "ic_like",
+              "action": "sendmessage",
+              "payload": "Balance"
+            },
+            {
+              "image": "ic_dislike",
+              "action": "sendmessage",
+              "payload": "Balance"
+            }
+          ]
+        },
+        "feedbackview": {
+          "content": [
+            {
+              "image": "ic_like",
+              "action": "sendmessage",
+              "payload": "Balance"
+            },
+            {
+              "image": "ic_dislike",
+              "action": "sendmessage",
+              "payload": "Balance"
+            }
+          ]
+        }
+      }
+    },
+    "initView": {
+      "logo": {
+        "imageName": "ic_launcher"
+      },
+      "loadingText": {
+        "label": "Loading",
+        "style": {
+          "color": "#CB1E63"
+        }
+      },
+      "progressView": {
+        "color": "#CB1E63"
+      }
+    }
+  }
+}

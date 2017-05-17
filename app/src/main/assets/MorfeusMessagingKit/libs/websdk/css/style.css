@@ -1,0 +1,185 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.main-container {
+    height: 100%;
+    position: fixed;
+    font-family: avenir-roman;
+    width: 100%;
+}
+
+.main-container {
+    flex-direction: column;
+}
+
+.main-container,
+.msg,
+.toolbar,
+.footer-form {
+    display: flex;
+}
+
+.messages {
+    -webkit-overflow-scrolling: touch;
+}
+
+.chat-head {
+    line-height: 0.5em;
+    padding: 10px 20px;
+}
+
+.chat-head-desktop {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.chat-heading__name {
+    font-weight: normal;
+    font-size: 1.75em;
+}
+
+.chat-heading__tel {
+    font-size: .875em;
+}
+
+.heading-name {
+    margin: 0px;
+    font-size: 1em;
+    line-height: 45px;
+}
+
+.footer-form input {
+    padding-left: .325em;
+    border: none;
+    flex: 1;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.close-icon {
+    width: 15px;
+    cursor: pointer;
+}
+
+.msg {
+    position: relative;
+    padding: 0 1em;
+    overflow-wrap: break-word;
+}
+
+.messages .msg .messageContent {
+    border-radius: .35em;
+    position: relative;
+    display: block;
+    margin: 0;
+    max-width: 80%;
+    padding: 10px;
+}
+
+.user-message .messageContent::after {
+    border: .5em solid #FFBB73;
+    border-color: #FFBB73 transparent transparent #FFBB73;
+    top: .5em;
+    right: -1em;
+}
+
+.bot-message .messageContent {
+    margin-left: 1em;
+}
+
+.footer-form {
+    padding-right: 15px;
+}
+
+.footer-form-desktop {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.footer-form input {
+    background-color: transparent;
+}
+
+.footer-form input:focus,
+.footer-form button:focus {
+    border: none;
+    outline: none;
+}
+
+.messages {
+    flex: 1;
+    overflow: auto;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.user-message p {
+    order: -1;
+    margin-right: 1em;
+}
+
+.user-message .last-seen-tick {
+    margin: 0px !important;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.bot-message .last-seen-tick {
+    margin: 0px !important;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.user-message .tick-image img {
+    width: 13px;
+    height: 10px;
+}
+
+.bot-image-container {
+    background: transparent !important;
+    width: 40px;
+    position: relative;
+}
+
+.bot-image-container img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.image-button {
+    background-color: transparent;
+    border: 0px;
+    min-width: 35px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.logo-icon {
+    width: 25px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.flex-design {
+    display: flex;
+    margin-bottom: 1em !important;
+}
+
+.bot-message {
+    flex-direction: column;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.flex-align-right {
+    margin: auto;
+    margin-right: 0;
+}

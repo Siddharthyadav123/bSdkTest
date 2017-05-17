@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Axis Demo</string>
+    <string name="open_sdk">Open sdk</string>
+
+    <!-- Sdk List screen text-->
+    <string name="select_sdk_txt">Select SDK</string>
+    <string name="web_sdk">web sdk</string>
+    <string name="hybrid_txt">Hybrid</string>
+    <string name="native_txt">Native</string>
+    <string name="web_sdk_txt">Web Sdk</string>
+
+    <string name="web_sdk_load_url">"https://morfeus-dev.active.ai/morfeuswebsdk"</string>
+    <string name="hybrid_sdk">Hybrid Sdk</string>
+    <string name="loacla_asset_url_for_hybrid_sdk">"file:///android_asset/MorfeusMessagingKit/index.html"</string>
+    <string name="welcome">Welcome</string>
+</resources>

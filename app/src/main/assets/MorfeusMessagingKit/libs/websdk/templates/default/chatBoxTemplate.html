@@ -1,0 +1,12 @@
+<div style="height: 100%; display: flex; flex-direction: column;position: relative;">
+    <div class="session-timeout "></div>
+    <section class="messages" id="messages">
+    </section>
+    <footer class="footer-form">
+        <input type="text" placeholder="How may I help you?" id="query" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="-1" onkeypress="querykeypress(event)" />
+        {{#micSupported}}
+            <button class="image-button mic-off" id="micBtn" type="button" onclick="startDictation()" style="display:none;"></button>
+        {{/micSupported}}
+        <button class="image-button" id="send" type="button" onclick="send()"></button>
+    </footer>
+</div>

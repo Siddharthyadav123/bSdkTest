@@ -1,0 +1,19 @@
+<div class="text-center">
+    <img class="HeaderLogoDesign" src="images/hdfc/hdfc-icon.jpg">
+    <div class="container-fluid welcome-card-design margint0px">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <b><p>
+                    {{text}}
+                </p>
+                </b>
+                <p>
+                    {{subText}}
+                </p>
+                {{#if quickText}}
+                    <button class="btn btn-primary default-head-btn" type="button" onclick="loadQuickText('{{quickText}}');">{{quickText}}</button>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</div>

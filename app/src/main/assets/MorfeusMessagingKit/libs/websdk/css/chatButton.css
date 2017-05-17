@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ai-container .ai-launcher {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    /*background: rgb(29, 59, 138);*/
+    background: #068ad4;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    font-family: "ai-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#ai-container .ai-launcher * {
+    cursor: pointer
+}
+
+#ai-container .ai-launcher-close-icon,
+#ai-container .ai-launcher-open-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    transition: opacity .08s linear, -webkit-transform .16s linear;
+    transition: transform .16s linear, opacity .08s linear;
+    transition: transform .16s linear, opacity .08s linear, -webkit-transform .16s linear;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+#ai-container .ai-launcher-open-icon {
+    background-image: url("../images/hdfc/chat-btn-open.png");
+    background-size: 32px 36px;
+    background-repeat: no-repeat;
+    background-position: center 14px;
+    opacity: 1;
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1)
+}
+
+#ai-container .ai-launcher-close-icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEUAAAD///////////////////////////8AAADr8xjQAAAAB3RSTlMAM7cPx7jIAE21/gAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABESURBVAjXYxAyYGBgYFZkUHcG0ialDCYlBgzM7slA7MxgUgaUNCkzdgfJMbunlIDUMpiUg7hwGiYOVQfTBzMHZi7UHgCB3RAZ7HszogAAAABJRU5ErkJggg==);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg)
+}
+
+#ai-container .ai-launcher-active .ai-launcher-open-icon {
+    opacity: 0;
+    -webkit-transform: rotate(30deg) scale(0);
+    transform: rotate(30deg) scale(0)
+}
+
+#ai-container .ai-launcher-active .ai-launcher-close-icon {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}

@@ -1,0 +1,31 @@
+.chat-head {
+    background-color: #1D3B8A;
+    color: #fff;
+}
+
+.messages {
+    background-color: #fff;
+}
+
+.bot-message .messageContent {
+    background-color: #eeedef;
+    color: #000;
+}
+
+.bot-message .last-seen-tick {
+    color: #000;
+}
+
+.user-message .messageContent {
+    background-color: #3393fb;
+    color: #fff;
+}
+
+.user-message .last-seen-tick {
+    color: #fff;
+}
+
+.footer-form {
+    background-color: #f0f3f5;
+    color: #565867;
+}

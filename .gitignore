@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+src/main/assets/MorfeusMessagingKit/libs/websdk/fonts/
+src/main/assets/MorfeusMessagingKit/libs/websdk/images/default/
+src/main/assets/MorfeusMessagingKit/libs/websdk_old/fonts/
+src/main/assets/MorfeusMessagingKit/libs/websdk_old/images/default/

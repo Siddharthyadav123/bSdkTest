@@ -1,0 +1,58 @@
+{
+  "screen": {
+    "id": "OTPScreen",
+    "body": {
+      "style": {
+        "background-image": "bgCat",
+        "background-color": "#ffffff"
+      },
+      "pinpad": {
+        "numberOfCharater": "6",
+        "style": {
+          "mask-image": "abc.png",
+          "unmask-image": "abc.png"
+        }
+      },
+      "subheaderText": {
+        "text": "Please enter otp",
+        "style": {
+          "text-color": "#999999"
+        }
+      }
+    },
+    "header": {
+      "style": {
+        "background-image": "abc.png",
+        "background-color": "#F9F9F9",
+        "border-color": "#000000"
+      },
+      "headerText": {
+        "text": "HDFC Demo",
+        "style": {
+          "text-color": "#000000"
+        }
+      }
+    },
+    "footer": {
+      "style": {
+        "height": "36",
+        "background-color": "#FFFFFF",
+        "border-color": "#000000"
+      },
+      "sendbutton": {
+        "text": "Send",
+        "style": {
+          "text-color": "#999999",
+          "background-color": "#FFFFFF"
+        }
+      },
+      "cancelbutton": {
+        "text": "Cancel",
+        "style": {
+          "text-color": "#999999",
+          "background-color": "#FFFFFF"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{{#if data.length}}
+    <div class="msg" id="listMessage" style="padding:0px 40px;margin:0px;">
+        <div class="panel panel-default list-custom-template">
+            {{#each data}}
+                {{#is type "rowcaption" }}
+                    <div class="panel-header">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="list-subtitle margin0px">{{title}}
+                                    <span class="pull-right">
+                                <strong>{{subtitle}}</strong>
+                                </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {{/is}}
+                {{#is type "row"}}
+                    <div class="custom-panel-radius panel-body">
+                        <div class="row">
+                            <div class="col-md-12 flex-display">
+                                <div>
+                                    <h4 class="list-heading">{{title}}</h4>
+                                    <p class="list-subtitle">{{subtitle}}</p>
+                                    {{#each buttons}}
+                                        <button class="btn btn-primary btn-outline" type="button" data-value="{{stringify action}}" data-type="{{buttonType}}" onclick="callApi(this);">{{text}}</button>
+                                    {{/each}}
+                                </div>
+                                {{#if imageurl}}
+                                    <div class="flex-align-right">
+                                        <img src="{{imageurl}}" class="img-responsive pull-right" width="70">
+                                    </div>
+                                {{/if}}
+                            </div>
+                        </div>
+                    </div>
+                {{/is}}
+                {{#is type "rowbutton" }}
+                    {{#if buttons.length}}
+                        <div id='rowbuttons'>
+                            {{#each buttons}}
+                                <div data-type='rowbutton' {{#unless @last}} class="row-btn-border" {{/unless}}>
+                                    <button class="btn btn-primary btn-block row-btn" type=" button " data-value="{{stringify this.action}}" data-type="{{this.buttonType}}" onclick="disableAllButtons(this);callApi(this);">{{this.text}}
+                                    </button>
+                                </div>
+                            {{/each}}
+                        </div>
+                    {{/if}}
+                {{/is}}
+            {{/each}}
+        </div>
+    </div>
+{{/if}}

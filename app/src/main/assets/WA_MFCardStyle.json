@@ -1,0 +1,294 @@
+{
+  "cardStyles": {
+    "messagetime": {
+      "style": {
+        "position": "between_message"
+      }
+    },
+    "messagesender": {
+      "style": {
+        "position": "inside_bubble"
+      }
+    },
+    "messagestatus": {
+      "style": {
+        "sent-image": "abc.png",
+        "delivered-image": "abc.png"
+      }
+    },
+    "cards": [
+      {
+        "cardType": "text",
+        "incoming": {
+          "style": {
+            "background-color": "#ffffff",
+            "background-image": "chat-axis-incoming",
+            "background-color-shape": "bordered",
+            "padding-left": "7",
+            "messagetime-color": "#000000",
+            "messagesender-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          }
+        },
+        "outgoing": {
+          "style": {
+            "background-color": "#0085FE",
+            "background-color-shape": "bordered",
+            "padding-right": "3",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#FFFFFF"
+            }
+          }
+        }
+      },
+      {
+        "cardType": "image",
+        "incoming": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-left": "0",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": ""
+            }
+          }
+        },
+        "outgoing": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-right": "0",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": ""
+            }
+          }
+        }
+      },
+      {
+        "cardType": "InfoCardTemplate",
+        "incoming": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-left": "2",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          },
+          "subtitle": {
+            "style": {
+              "text-color": "#666666"
+            }
+          }
+        },
+        "outgoing": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-right": "2",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          },
+          "subtitle": {
+            "style": {
+              "text-color": "#666666"
+            }
+          }
+        }
+      },
+      {
+        "cardType": "InfoCardWithButtonsTemplate",
+        "incoming": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-left": "2",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          },
+          "subtitle": {
+            "style": {
+              "text-color": "#666666"
+            }
+          },
+          "description": {
+            "style": {
+              "text-color": "#999999"
+            }
+          },
+          "button": {
+            "style": {
+              "text-color": ""
+            }
+          }
+        },
+        "outgoing": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-right": "2",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          },
+          "subtitle": {
+            "style": {
+              "text-color": "#666666"
+            }
+          },
+          "description": {
+            "style": {
+              "text-color": "#999999"
+            }
+          },
+          "button": {
+            "style": {
+              "text-color": ""
+            }
+          }
+        }
+      },
+      {
+        "cardType": "SimleyCardTemplate",
+        "showasbig": "no"
+      },
+      {
+        "cardType": "OTPCardTemplate",
+        "outgoing": {
+          "style": {
+            "background-color": "",
+            "background-image": "",
+            "background-color-shape": "rounded/withtail/rectangle",
+            "padding-right": "0",
+            "messagetime-color": "#FFFFFF",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "",
+              "maskCharacter": "*"
+            }
+          }
+        }
+      },
+      {
+        "cardType": "HybridCardTemplate"
+      },
+      {
+        "cardType": "ListCardTemplate",
+        "incoming": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-left": "0",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          },
+          "subtitle": {
+            "style": {
+              "text-color": "#666666"
+            }
+          },
+          "description": {
+            "style": {
+              "text-color": "#999999"
+            }
+          },
+          "button": {
+            "style": {
+              "text-color": ""
+            }
+          }
+        },
+        "outgoing": {
+          "style": {
+            "background-color": "#FFFFFF",
+            "background-image": "",
+            "background-color-shape": "bordered",
+            "padding-right": "0",
+            "messagetime-color": "#000000",
+            "bot-image": "abc.png",
+            "max-width": "230"
+          },
+          "title": {
+            "style": {
+              "text-color": "#000000"
+            }
+          },
+          "subtitle": {
+            "style": {
+              "text-color": "#666666"
+            }
+          },
+          "description": {
+            "style": {
+              "text-color": "#999999"
+            }
+          },
+          "button": {
+            "style": {
+              "text-color": ""
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+<div class="panel panel-default list-custom-template">
+    {{#is payload.top_element_style compact}}
+        {{#each payload.data}}
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-7 col-xs-7">
+                        {{#if title}}
+                            <h4 class="list-heading">{{title}}</h4>{{/if}}
+                        {{#if subTitle}}
+                            <p class="list-subtitle">{{subTitle}}</p>
+                        {{/if}}
+                        {{#each buttons}}
+                            {{#if this}}
+                                <button class="btn btn-primary btn-outline">{{this}}</button>
+                            {{/if}}
+                        {{/each}}
+                    </div>
+                    <div class="col-md-5 col-xs-5 text-right">
+                        <img src="{{image}}" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+        {{else}}
+            {{#each payload.data}}
+                {{#if @first}}
+                    <div class="panel-body background-image-div">
+                        <div class="over-lay-div"></div>
+                        <img src="{{image}}" class="img-responsive">
+                        <div class="row">
+                            <div class="col-md-12">
+                                {{#if title}}
+                                    <h4 class="list-heading">{{title}}</h4>{{/if}}
+                                {{#if subTitle}}
+                                    <p class="list-subtitle">{{subTitle}}</p>
+                                {{/if}}
+                                {{#each buttons}}
+                                    {{#if this}}
+                                        <button class="btn btn-primary btn-outline">{{this}}</button>
+                                    {{/if}}
+                                {{/each}}
+                            </div>
+                        </div>
+                    </div>
+                {{else}}
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-7 col-xs-7">
+                                {{#if title}}
+                                    <h4 class="list-heading">{{title}}</h4>{{/if}}
+                                {{#if subTitle}}
+                                    <p class="list-subtitle">{{subTitle}}</p>
+                                {{/if}}
+                                {{#each buttons}}
+                                    {{#if this}}
+                                        <button class="btn btn-primary btn-outline">{{this}}</button>
+                                    {{/if}}
+                                {{/each}}
+                            </div>
+                            <div class="col-md-5 col-xs-5 text-right {{#if @first}} hidden{{/if}}">
+                                <img src="{{image}}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                {{/if}}
+            {{/each}}
+    {{/is}}
+</div>
